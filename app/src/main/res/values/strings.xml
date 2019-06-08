@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">KotlinEverywhereCodelab</string>
+    <string name="kotlin_everywhere_description">Kotlin/Everywhere a global series of community-led events - supported by Google and JetBrains</string>
+    <string name="username">Username</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="hello_user">"Hello %1$s! You are a Kotliners anymore.\nWelcome to the cool club 😎"</string>
+    <string name="your_email">Your E-Mail: %1$s</string>
+    <string name="your_password">Your Password: %1$s</string>
+    <string name="password_error">Password should be minimum 6 characters</string>
+
+
 </resources>

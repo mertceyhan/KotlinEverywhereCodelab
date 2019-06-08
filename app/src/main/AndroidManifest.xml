@@ -9,13 +9,18 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+
+        <!-- Hello Kotliners 👋 This is your first mission. You should create SignUpActivity for users to register and SignUpActivity should start as first page. -->
+        <activity android:name=".SignUpActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <activity android:name=".MainActivity"/>
+
     </application>
 
 </manifest>
