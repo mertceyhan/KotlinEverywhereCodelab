@@ -1,17 +1,22 @@
-#Kotlin Everywhere Codelab
+# Kotlin Everywhere Codelab
+
 Kotlin Everywhere a global series of community-led events - supported by Google and JetBrains - where you can learn more about Kotlin, including using it in Android, Google Cloud Platform, and multi-platform development.
 
 This project created for Kotlin Everywhere events for beginners. It will show step by step some Android fundamentals with Kotlin programming language.
 
-<img src="https://i.ibb.co/f1Xh3QD/image.png"/>
+<img src="https://i.ibb.co/R4rMk9Z/image.jpg"/>
 
-#Creators
-<a https://github.com/mertceyhan"><img border="0" alt="mertceyhan" src="https://avatars3.githubusercontent.com/u/22434597?s=460&v=4" width="100" height="100">
-<a https://github.com/okanaydin"><img border="0" alt="okanaydin" src="https://avatars1.githubusercontent.com/u/11614563?s=400&v=4" width="100" height="100">
+<p align="center">
+  <img  src="https://i.ibb.co/wrGbFR3/image.jpg">
+</p>
 
+# Creators
+
+[<img src="https://avatars3.githubusercontent.com/u/22434597?s=460&v=4" width="150" height="150">](https://github.com/mertceyhan)   [<img src="https://avatars1.githubusercontent.com/u/11614563?s=400&v=4" width="150" height="150">](https://github.com/okanaydin)
 
 License
 --------
+
     Copyright 2019 Cafer Mert Ceyhan
 
     Licensed under the Apache License, Version 2.0 (the "License");
