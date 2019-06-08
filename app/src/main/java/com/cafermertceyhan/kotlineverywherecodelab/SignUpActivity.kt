@@ -18,7 +18,7 @@ class SignUpActivity : AppCompatActivity() {
             val email = et_email.text.toString()
 
             //  6 - Define a password variable and get its value from et_password.
-            val password = et_password.toString()
+            val password = et_password.text.toString()
 
             //  7 - Call startMainActivity function
             startMainActivity(username, email, password)
