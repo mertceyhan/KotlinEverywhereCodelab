@@ -36,6 +36,15 @@
         android:textSize="16sp"
         tools:text="Your E-Mail: user@email.com" />
 
-    <!-- TODO 5 - You should add new textView for user to view password -->
+    <!-- 5 - You should add new textView for user to view password -->
+
+    <TextView
+        android:id="@+id/tv_user_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="Your Password: userPassword" />
 
 </LinearLayout>
