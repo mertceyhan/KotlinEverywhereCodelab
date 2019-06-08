@@ -1,10 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".SignUpActivity">
 
-</android.support.constraint.ConstraintLayout>
+<!-- TODO 2 - You should move all string (text and hint) values to string.xml file under values folder -->
+
+<!-- TODO 3 - You should move all color values to color.xml file under values folder -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF582"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:id="@+id/iv_kotlin_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_kotlin_everywhere" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Kotlin/Everywhere a global series of community-led events - supported by Google and JetBrains"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:background="#FFFFFF"
+        android:hint="Username"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:maxLength="10"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:hint="E-Mail"
+        android:imeOptions="actionNext"
+        android:padding="16dp" />
+
+    <!-- TODO 4 - You should add new editText for user to enter password. You can cheat from other editText 🙈 🙉 🙊 -->
+
+    <Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#EAEBED"
+        android:text="Sign Up" />
+
+</LinearLayout>
