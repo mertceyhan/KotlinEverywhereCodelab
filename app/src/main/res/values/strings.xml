@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">KotlinEverywhereCodelab</string>
+    <string name="kotlin_everywhere_description">Kotlin/Everywhere a global series of community-led events - supported by Google and JetBrains</string>
+    <string name="username">Username</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
 </resources>

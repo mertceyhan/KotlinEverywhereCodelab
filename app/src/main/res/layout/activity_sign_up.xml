@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- TODO 2 - You should move all string (text and hint) values to string.xml file under values folder -->
+<!-- 2 - You should move all string (text and hint) values to string.xml file under values folder -->
 
-<!-- TODO 3 - You should move all color values to color.xml file under values folder -->
+<!-- 3 - You should move all color values to color.xml file under values folder -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF582"
+    android:background="@color/yellow"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".SignUpActivity">
@@ -27,8 +27,8 @@
         android:layout_marginTop="8dp"
         android:gravity="center"
         android:padding="16dp"
-        android:text="Kotlin/Everywhere a global series of community-led events - supported by Google and JetBrains"
-        android:textColor="#000000"
+        android:text="@string/kotlin_everywhere_description"
+        android:textColor="@color/black"
         android:textSize="16sp" />
 
     <EditText
@@ -36,8 +36,8 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
-        android:background="#FFFFFF"
-        android:hint="Username"
+        android:background="@color/white"
+        android:hint="@string/username"
         android:imeOptions="actionNext"
         android:inputType="text"
         android:maxLength="10"
@@ -48,19 +48,31 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:background="#FFFFFF"
-        android:hint="E-Mail"
+        android:background="@color/white"
+        android:hint="@string/e_mail"
         android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
         android:padding="16dp" />
 
-    <!-- TODO 4 - You should add new editText for user to enter password. You can cheat from other editText 🙈 🙉 🙊 -->
+    <!-- 4 - You should add new editText for user to enter password. You can cheat from other editText 🙈 🙉 🙊 -->
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:hint="@string/password"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:padding="16dp" />
 
     <Button
         android:id="@+id/btn_sign_up"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:background="#EAEBED"
-        android:text="Sign Up" />
+        android:background="@color/grey"
+        android:text="@string/sign_up" />
 
 </LinearLayout>
