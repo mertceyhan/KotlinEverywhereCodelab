@@ -4,8 +4,6 @@ Kotlin Everywhere a global series of community-led events - supported by Google 
 
 This project created for Kotlin Everywhere events for beginners. It will show step by step some Android fundamentals with Kotlin programming language.
 
-<img src="https://i.ibb.co/R4rMk9Z/image.jpg"/>
-
 <p align="center">
   <img  src="https://i.ibb.co/wrGbFR3/image.jpg">
 </p>
