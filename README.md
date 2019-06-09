@@ -8,6 +8,14 @@ This project created for Kotlin Everywhere events for beginners. It will show st
   <img  src="https://i.ibb.co/wrGbFR3/image.jpg">
 </p>
 
+# TODO LIST
+Firstly, you should clone or downloand this project and open project on Android Studio. Checkout <b>step1</b> branch if it successfuly build. You can find your first mission under TODO window.
+
+<img src="https://i.ibb.co/vh1QZbG/Screen-Shot-2019-06-09-at-20-10-54.png">
+
+Thereafter, you can follow step by step. if you can't your mission. You can find completed version from next step.
+Good luck and have fun.
+
 # Creators
 
 [<img src="https://avatars3.githubusercontent.com/u/22434597?s=460&v=4" width="150" height="150">](https://github.com/mertceyhan)   [<img src="https://avatars1.githubusercontent.com/u/11614563?s=400&v=4" width="150" height="150">](https://github.com/okanaydin)
